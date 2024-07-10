@@ -136,3 +136,18 @@ justify-content: right;}
 .para4{
     font-size: 16px;
 }
+
+
+.head6{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;}
+.para5{
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    width: 70%;
+}
