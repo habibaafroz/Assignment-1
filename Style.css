@@ -7,7 +7,7 @@
     align-items: center;
     position: absolute;
     top: 30px;
-    left: 640px;
+    left: 44%;
     margin: 0 auto;
 }
 
@@ -218,4 +218,57 @@ justify-content: right;}
     flex-direction: row;
     align-items: center;
     margin: 0 auto;
+}
+
+
+
+.heads {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end; 
+        font-size: 24px;
+        text-align: right;
+      }
+      
+.he4{float: right;}
+.PM{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;}
+.place{ position: absolute;
+    width: 70%;
+    height: 20%;
+    left: 15%;
+    padding: 48px;
+    align-items: center;
+    margin: 0px 24px;}
+
+.hand{
+    width: 1140px;
+    height: 260px;
+    top: 4752px;
+    left: 150px;
+    right: 150px;
+    margin: 0 auto;
+    background-image: url(B10A1-Challenge-Begins-main/assets/handshake.jpg);
+    background-position: center;
+    text-align: center;
+    background-size: cover}
+
+.suggestion{
+    height: 57px;
+    width: 548px;
+    font-size: 16px;
+    }
+
+.bye{
+    top: 4900px
+    left
 }
