@@ -7,7 +7,7 @@
     align-items: center;
     position: absolute;
     top: 30px;
-    left: 630px;
+    left: 830px;
     margin: 0 auto;
 }
 
@@ -70,19 +70,69 @@ font-family: Azeret Mono;
     .para{
         font-size: 16px;
         line-height: 26px;
-        text-align: center;}
+        text-align: center;
+    width: 70%;}
 
-.layer1{
-    margin-right: 10%;
-    text-align: right;
-    display: block;
-    right: 1000px;
+.lo1
+{float: right;}
+.layer1
+{
+    position: absolute;
+    width: 70%;
+    height: 20%;
+    left: 15%;
+    padding: 48px;
+    align-items: center;
 }
-.layer2{text-align: left;
-    margin-left: 10%;
-    display: block;
-  }
+.head3
+{font-size: 30px;}
+.para2{
+    font-size: 16px;
+}
 
-.layer3{display: block;
-    text-align: right;
-    margin-right: 10%;}
+.b1{
+    width: 150px;
+    height: 48px;
+}
+.b2{width: 150px;
+    height: 48px;
+    float: right;}
+.b3{width: 150px;
+    float: left;
+    height: 48px;}
+.lo2{float: left;}
+.head4{float: right;
+font-size: 30px;}
+.para3{float: right;
+font-size: 16px;}
+
+.align{display: flex;
+flex-direction: column;
+justify-content: right;}
+
+.layer2
+{
+    position: absolute;
+    width: 70%;
+    height: 20%;
+    left: 15%;
+    padding: 48px;
+    align-items: center;
+}
+
+.lo3
+{float: right;}
+.layer3
+{
+    position: absolute;
+    width: 70%;
+    height: 20%;
+    left: 15%;
+    padding: 48px;
+    align-items: center;
+}
+.head5
+{font-size: 30px;}
+.para4{
+    font-size: 16px;
+}
