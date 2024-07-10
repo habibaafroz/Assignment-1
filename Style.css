@@ -7,7 +7,7 @@
     align-items: center;
     position: absolute;
     top: 30px;
-    left: 830px;
+    left: 640px;
     margin: 0 auto;
 }
 
@@ -173,53 +173,37 @@ justify-content: right;}
     text-align: center;
     width: 70%;
 }
+
+.card{  
+    position: static;
+    width: 182px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    flex: none;}
 .card1{
     
-position: static;
-width: 182px;
-height: 150px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 40px;
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 24px;
-border-radius: 16px;
-background: rgba(255, 76, 30, 0.05);
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
 }
 
 .card2{
-    border-radius: 16px;
-    background: rgba(0, 76, 232, 0.05);
-   
-    position: static;
-    width: 182px;
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 40px;
-    flex: none;
     order: 1;
     flex-grow: 0;
     margin: 0px 24px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
 }
+     
 
 .card3{
-       
-    position: static;
-    width: 182px;
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 40px;
-    flex: none;
+     
     order: 1;
     flex-grow: 0;
     margin: 0px 24px;
